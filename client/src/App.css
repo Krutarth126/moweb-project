@@ -1,0 +1,145 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  text-align: center;
+  position: relative;
+}
+
+h1 {
+  background-color: #161d6f;
+  color: white;
+  width: 100%;
+  line-height: 12vh;
+}
+i {
+  color: #e7e6e1;
+  position: absolute;
+  right: 50px;
+  top: 25px;
+}
+
+i:hover {
+  color: white;
+  cursor: pointer;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: auto auto;
+  min-height: 80vh;
+}
+
+.items div {
+  border: 3px solid #26001b;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  box-shadow: 10px 10px 10px #26001b;
+  border-radius: 10px;
+  height: 350px;
+  width: 80%;
+}
+
+.items div h3 {
+  background-color: #b4aee8;
+  text-transform: uppercase;
+  line-height: 5vh;
+}
+
+.items div:hover {
+  transform: scale(1.02);
+  transition-duration: 0.5s;
+}
+
+.items div > p {
+  text-transform: capitalize;
+  font-weight: bold;
+}
+.items div p h6 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #161d6f;
+}
+
+button {
+  background-color: orange;
+  width: 7vw;
+  color: white;
+  height: 4vh;
+  margin: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  line-height: 10vh;
+  background-color: #1e212d;
+  color: #e7e6e1;
+  font-size: large;
+  font-weight: bold;
+  position: relative;
+  bottom: 0px;
+}
+
+button:hover {
+  background-color: black;
+}
+
+.cartt {
+  margin-top: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  border: 3px solid black;
+  height: 31vh;
+  margin-bottom: 25px;
+}
+
+.desc {
+  position: relative;
+  bottom: -50px;
+  left: 90px;
+  width: 45vw;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+.btn {
+  position: relative;
+  bottom: -75px;
+  right: -200px;
+}
+
+.btnrem {
+  background-color: rgba(255, 0, 0, 0.795);
+}
+
+.fa-bars {
+  position: relative;
+  left: -400px;
+  top: 0px;
+}
+
+.head {
+  width: 100%;
+  background-color: black;
+  color: white;
+  line-height: 10vh;
+}
+
+.no_itmes_div {
+  min-height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
